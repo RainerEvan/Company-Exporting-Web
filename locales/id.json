@@ -1,0 +1,55 @@
+{
+  "brand": "PT Nusantara Global Exports",
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "products": "Produk",
+    "process": "Proses",
+    "contact": "Kontak",
+    "language": "EN / ID"
+  },
+  "hero": {
+    "title": "Menghadirkan Produk Terbaik Indonesia — dari Laut ke Industri.",
+    "subtitle": "Kami mengekspor Tuna premium, Kayu Lapis Marine, dan Briket Arang Tempurung Kelapa ke seluruh dunia.",
+    "explore": "Lihat Produk",
+    "quote": "Minta Penawaran"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "story": "Didirikan pada tahun 2025, PT Nusantara Global Exports berkomitmen menghubungkan produk terbaik Indonesia ke pasar dunia...",
+    "mission": "Misi",
+    "values": "Nilai",
+    "certifications": "Sertifikasi",
+    "testimonials": "Testimoni"
+  },
+  "products": {
+    "title": "Produk Kami",
+    "frozenTuna": "Tuna Sirip Kuning Beku",
+    "merantiPlywood": "Kayu Lapis Meranti Kelas Marine",
+    "charcoal": "Briket Arang Tempurung Kelapa",
+    "learnMore": "Selengkapnya"
+  },
+  "process": {
+    "title": "Proses Kami",
+    "steps": ["Pengadaan", "Kontrol Kualitas", "Pengemasan", "Pengiriman"]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "name": "Nama Lengkap",
+    "company": "Perusahaan",
+    "email": "Email",
+    "country": "Negara",
+    "product": "Produk yang Diminati",
+    "message": "Pesan",
+    "submit": "Kirim Pertanyaan",
+    "success": "Terima kasih! Kami akan segera menghubungi Anda."
+  },
+  "why": {
+    "title": "Mengapa Memilih Kami",
+    "items": ["Kualitas", "Keandalan", "Keberlanjutan"]
+  },
+  "footer": {
+    "rights": "Hak cipta dilindungi.",
+    "whatsapp": "Hubungi WhatsApp"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "brand": "PT Nusantara Global Exports",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "process": "Process",
+    "contact": "Contact",
+    "language": "EN / ID"
+  },
+  "hero": {
+    "title": "Delivering Indonesia’s Finest Products — from Ocean to Industry.",
+    "subtitle": "We export premium Tuna Fish, Marine-grade Plywood, and eco-friendly Charcoal Briquettes worldwide.",
+    "explore": "Explore Products",
+    "quote": "Request a Quote"
+  },
+  "about": {
+    "title": "About Us",
+    "story": "Founded in 2025, PT Nusantara Global Exports was established to connect Indonesia’s best natural and manufactured goods to the world market...",
+    "mission": "Mission",
+    "values": "Values",
+    "certifications": "Certifications",
+    "testimonials": "Testimonials"
+  },
+  "products": {
+    "title": "Our Products",
+    "frozenTuna": "Frozen Yellowfin Tuna",
+    "merantiPlywood": "Marine Grade Meranti Plywood",
+    "charcoal": "Coconut Shell Charcoal Briquettes",
+    "learnMore": "Learn More"
+  },
+  "process": {
+    "title": "Our Process",
+    "steps": ["Sourcing", "Quality Control", "Packaging", "Delivery"]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Full Name",
+    "company": "Company",
+    "email": "Email",
+    "country": "Country",
+    "product": "Product of Interest",
+    "message": "Message",
+    "submit": "Send Inquiry",
+    "success": "Thank you! We will get back to you shortly."
+  },
+  "why": {
+    "title": "Why Choose Us",
+    "items": ["Quality", "Reliability", "Sustainability"]
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "whatsapp": "WhatsApp Us"
+  }
+}
