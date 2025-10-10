@@ -25,13 +25,13 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-background/90 backdrop-blur border-b">
       <div className="mx-auto max-w-6xl px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between gap-2 h-16">
           {/* Brand / Logo */}
           <Link href="/" className="flex items-center gap-2 font-semibold text-primary">
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-sm bg-primary text-primary-foreground text-sm">
               NG
             </span>
-            <span className="text-sm hidden sm:block">{t("brand")}</span>
+            <span className="text-xs sm:text-sm">{t("brand")}</span>
           </Link>
 
           {/* Desktop Nav */}
