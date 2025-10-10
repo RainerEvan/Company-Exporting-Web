@@ -30,12 +30,6 @@ export function SiteFooter() {
           <Link href="/contact" className="hover:text-primary">
             Contact
           </Link>
-          <Link href="/sitemap.xml" className="hover:text-primary">
-            Sitemap
-          </Link>
-          <Link href="/robots.txt" className="hover:text-primary">
-            Robots
-          </Link>
         </div>
         <div className="flex items-start md:justify-end">
           <Button asChild variant="secondary" className="border border-(--color-primary) text-(--color-primary)">
