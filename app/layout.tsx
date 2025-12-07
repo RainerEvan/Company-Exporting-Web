@@ -1,20 +1,20 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import { GeistMono } from "geist/font/mono"
-import { Analytics } from "@vercel/analytics/next"
-import "./globals.css"
-import { I18nProvider } from "@/lib/i18n"
-import { cookies } from "next/headers"
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
-import { Suspense } from "react"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { GeistMono } from "geist/font/mono";
+import { Analytics } from "@vercel/analytics/next";
+import "./globals.css";
+import { I18nProvider } from "@/lib/i18n";
+import { cookies } from "next/headers";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
+import { Suspense } from "react";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
-})
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
@@ -47,18 +47,19 @@ export const metadata: Metadata = {
     images: ["/cargo-ship-port.jpg"],
   },
   generator: "v0.app",
-}
+};
 
-export default function RootLayout({
+// 🔥 MAKE LAYOUT ASYNC
+export default async function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
-  const cookieStore = cookies()
-  const initialLang = (cookieStore.get("lang")?.value as "en" | "id") || "en"
+}: {
+  children: React.ReactNode;
+}) {
+  const cookieStore = await cookies();
+  const initialLang = (cookieStore.get("lang")?.value as "en" | "id") || "en";
 
   return (
-    <html lang="en" className={`${inter.variable} ${GeistMono.variable} antialiased`}>
+    <html lang={initialLang} className={`${inter.variable} ${GeistMono.variable} antialiased`}>
       <body className="font-sans min-h-screen flex flex-col">
         <I18nProvider initialLang={initialLang}>
           <Suspense fallback={<div>Loading...</div>}>
@@ -70,5 +71,5 @@ export default function RootLayout({
         <Analytics />
       </body>
     </html>
-  )
+  );
 }
